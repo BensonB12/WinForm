@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0-windows\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0-windows\WinFormsPractice.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0-windows\WinFormsPractice.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net7.0-windows\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0-windows\WinFormsPractice.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0-windows\WinFormsPractice.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net7.0-windows\HorseRacing.deps.json" />
+    <None Include="bin\Debug\net7.0-windows\HorseRacing.dll" />
+    <None Include="bin\Debug\net7.0-windows\HorseRacing.exe" />
+    <None Include="bin\Debug\net7.0-windows\HorseRacing.pdb" />
+    <None Include="bin\Debug\net7.0-windows\HorseRacing.runtimeconfig.json" />
+    <None Include="bin\Debug\net7.0-windows\WinFormsPractice.deps.json" />
+    <None Include="bin\Debug\net7.0-windows\WinFormsPractice.dll" />
+    <None Include="bin\Debug\net7.0-windows\WinFormsPractice.exe" />
+    <None Include="bin\Debug\net7.0-windows\WinFormsPractice.pdb" />
+    <None Include="bin\Debug\net7.0-windows\WinFormsPractice.runtimeconfig.json" />
+    <None Include="obj\Debug\net6.0-windows\WinFormsPractice.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0-windows\WinFormsPractice.assets.cache" />
+    <None Include="obj\Debug\net6.0-windows\WinFormsPractice.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0-windows\WinFormsPractice.designer.deps.json" />
+    <None Include="obj\Debug\net6.0-windows\WinFormsPractice.designer.runtimeconfig.json" />
+    <None Include="obj\Debug\net6.0-windows\WinFormsPractice.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net7.0-windows\apphost.exe" />
+    <None Include="obj\Debug\net7.0-windows\refint\WinFormsPractice.dll" />
+    <None Include="obj\Debug\net7.0-windows\ref\WinFormsPractice.dll" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.assets.cache" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.csproj.CopyComplete" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.csproj.FileListAbsolute.txt" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.designer.deps.json" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.designer.runtimeconfig.json" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.dll" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.Form1.resources" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net7.0-windows\WinFormsPractice.pdb" />
+    <None Include="obj\project.assets.json" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\WinFormsPractice.csproj.nuget.dgspec.json" />
+    <None Include="obj\WinFormsPractice.csproj.nuget.g.props" />
+    <None Include="obj\WinFormsPractice.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\horse-racing-semaphore---thread-control-BensonB12\HorseRacing.csproj" />
+  </ItemGroup>
+
+</Project>
